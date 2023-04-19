@@ -61,3 +61,13 @@ King County House Data: a dataset that we were provided at the onset of the proj
 * sqft_lot15
 
 # Data Cleaning 
+
+# Exploritory Data Analysis 
+
+# Modeling 
+
+# Conclusions 
+
+# Reccomendations 
+
+# Next Steps 

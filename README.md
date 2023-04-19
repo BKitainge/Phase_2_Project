@@ -61,6 +61,7 @@ King County House Data: a dataset that we were provided at the onset of the proj
 * sqft_lot15
 
 # Results
+![image1](https://user-images.githubusercontent.com/123490766/233191153-686ebb14-7026-4d59-89ea-8cd28e548208.png)
 
 
 # Modeling 

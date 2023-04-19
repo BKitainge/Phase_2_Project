@@ -55,7 +55,30 @@ King County House Data: a dataset that we were provided at the onset of the proj
 * sqft_lot15
 
 # Results
-![image1](https://user-images.githubusercontent.com/123490766/233191153-686ebb14-7026-4d59-89ea-8cd28e548208.png)
+*Explaratory Analysis
+
+*Price Vs Waterfront Box Plot* 
+![image.png](attachment:image.png)
+* This visualization helps to understand the impact of waterfront on the price of the house. The boxplot shows that houses with waterfront tend to have higher prices compared to houses without waterfront.
+
+*Average Price Vs View*
+![image.png](attachment:image.png)
+* The price increases as the view increases, however it seems houses with a good view ```2``` are priced higher than houses with a fair view ```3```
+
+*Price Vs Grade 
+![image.png](attachment:image.png)
+* From this we can see that as the grade of the house increases so does the sales price
+* The average price of a house with a grade of 13 is the highest
+* The average price of a house with a grade of 3 is the lowest
+
+* Price Vs Conditions 
+![image.png](attachment:image.png)
+* From this we can see that price increases as the condition of the house increases
+* However it appears that houses in poor condition are priced higher than those with fair condition
+
+*Price Vs Sqft Living 
+![image.png](attachment:image.png)
+* The scatter plot shows a positive correlation between the price and the sqft_living
 
 
 # Modeling 

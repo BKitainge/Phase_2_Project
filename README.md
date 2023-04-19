@@ -67,7 +67,7 @@ King County House Data: a dataset that we were provided at the onset of the proj
 # Modeling 
 We used  three different models for predicting house prices based on various features such as square footage, number of bedrooms and bathrooms, location, etc. The models used are:
 
-* Base Model- Multiple Regression
+### Base Model- Multiple Regression
 ![image](https://user-images.githubusercontent.com/98708792/233216929-586beda9-da00-44b1-b45f-49cb6ee82ec0.png)
     
   *The R-squared value (r2_score) is a measure of how well the model fits the data, with values closer to 1 indicating a better fit. In this case, the r2_score is 0.60, which suggests that the model explains 60% of the variability in the target variable.*
@@ -79,14 +79,14 @@ We used  three different models for predicting house prices based on various fea
   *The root mean squared error (RMSE) is the square root of the MSE, and it measures the average magnitude of the error in the model's predictions. The train RMSE and test RMSE are 232,919 and 233,222, respectively, which are also quite large.*
 Overall, these metrics suggest that the linear regression model is not performing very well in making accurate predictions on the dataset.
 
-* Log Transformation Model
+### Log Transformation Model
 ![image](https://user-images.githubusercontent.com/98708792/233217227-5b35d6f4-98b8-4eab-9ce6-9ef28ffa66a5.png)
   *An R2 score of 0.5795 indicates that the model explains 57.95% of the variance in the logarithmic actual values.*
   *An MAE value of 0.2727 for train data and 0.2739 for test data suggest that, on average, the model's logarithmic predictions are off by about 27.27% and 27.39% respectively from the logarithmic actual values.*
   *An MSE value of 0.1154 for train data and an MSE of 0.1175 for test data suggest that, on average, the model's logarithmic predictions are off by the squared value of about 11.54% and 11.75% respectively from the logarithmic actual values.*
   *An RMSE value of 0.3396 for train data and 0.3428 for test data suggest that, on average, the model's logarithmic predictions are off by the squared root value of about 33.96% and 34.28% respectively from the logarithmic actual values*
   
-* Polynomial Model
+### Polynomial Model
 ![image](https://user-images.githubusercontent.com/98708792/233217409-6c4347fc-0de8-4768-8c9a-8f790f651b83.png)
   *The r2_score is 0.669, indicating that the model explains about 66.9% of the variation in the target variable.*
   *The train MAE is 141902.51 and the test MAE is 143141.58. This means that, on average, the model's predictions are off by about $141,902.51 in the training data and $143,141.58 in the test data.*
@@ -96,7 +96,7 @@ Overall, these metrics suggest that the linear regression model is not performin
 In summary, these metrics can be used to evaluate the performance of the model. In this case, the model has a decent r2_score, but its MAE and RMSE indicate that there is still room for improvement in the model's predictive accuracy.
 
 # Conclusions 
-* Base Model
+### Base Model
 This model has a lower R-squared value, which indicates that the model is not able to explain as much variance in the data as the other models. The R-squared value of ```0.60``` suggests that the model explains ```60%``` of the variance in the data, which is lower than the other two models.
 
 The MAE values for both the train and test sets are around ```155,000```, which is higher than the other two models, indicating that this base model's predictions are, on average, off by a larger margin. The MSE values are also higher than the other models, indicating that the model's predictions may be quite far off for some instances. The RMSE values are also higher than the other models, indicating that the errors are larger.
@@ -105,7 +105,7 @@ The mean_diff value for this base model is around ```32%```, which is higher tha
 
 In conclusion, this base model's performance is lower than the other two models, as indicated by the lower R-squared value, higher MAE, MSE, and RMSE values, and higher mean_diff. Therefore, there is room for improvement, and we should explore other models to improve the performance of our prediction model.
 
-* Log Transformation Model
+### Log Transformation Model
 This is a log transformation model output, and it is difficult to compare it with the previous results as they are from a different type of model. However, we can analyze the performance of this log transformation model using the provided output.
 
 The R-squared value of 0.58 suggests that the model explains 58% of the variance in the data, which is lower than the R-squared value of the previous model. It indicates that the model may not be able to capture all the underlying patterns in the data.
@@ -116,7 +116,7 @@ Looking at the mean_diff, which is the mean of the percentage difference between
 
 In conclusion, the performance of this log transformation model is reasonable, but there is still room for improvement. The lower R-squared value suggests that the model may not be able to capture all the underlying patterns in the data. However, the lower mean_diff values suggest that this model may be better suited for this particular dataset, and further analysis is required to draw a definitive conclusion.
 
-* Polynomial Model
+### Polynomial Model
 Based on the given output, the model seems to have performed reasonably well in predicting the target variable. The R-squared value of ```0.67``` suggests that the model explains ```67%``` of the variance in the data, which is not bad, but there is still room for improvement.
 
 The Mean Absolute Error (MAE) for both the train and test sets is around ```$140,000,``` which means that on average, the model's predictions are off by ```$140,000.``` The Mean Squared Error (MSE) values for the train and test sets are in the order of billions, indicating that the model's predictions may be farther off for some instances. The Root Mean Squared Error (RMSE) values are around ```$210,000``` and ```$212,000``` for the train and test sets, respectively.

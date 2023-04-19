@@ -8,7 +8,7 @@ Phase 2 Housing project.
 
 # Business problem.
 
-# $Authors:$ 
+# $Authors$ 
 | Yussuf Hersi | Bravin Mugangasia | Pauline Wambui | Kibet Kemboi | Brian Kisilu | Ronald Nyagaka
 
 # Problem Statement

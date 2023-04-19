@@ -43,7 +43,7 @@ King County House Data: a dataset that we were provided at the onset of the proj
 * price 
 * bedrooms 
 * bathrooms 
-* sqft_livin 
+* sqft_living 
 * sqft_lot
 * floors
 * waterfront
@@ -60,11 +60,8 @@ King County House Data: a dataset that we were provided at the onset of the proj
 * sqft_living15
 * sqft_lot15
 
-* Data Cleaning 
-    * Modifying Date Colums 
-    * Checking for Duplicates and NaN Values 
+# Results
 
-# Exploritory Data Analysis 
 
 # Modeling 
 

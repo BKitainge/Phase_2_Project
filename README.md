@@ -1,3 +1,3 @@
-# P2_project
+# Phase 2 Housing project.
 
 # Business problem.

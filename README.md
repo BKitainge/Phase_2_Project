@@ -32,3 +32,7 @@ Once the model is trained, it can be integrated into the platform to provide buy
 * To develop a model that accurately estimates house prices based on the identified features.
 * To evaluate the performance of the developed model in estimating house prices in King County.
 
+# Data Understanding 
+1. Data
+We utilized the following dataset to help make predictions of house prices in Kings County 
+King County House Data: a dataset that we were provided at the onset of the project. This file contains data for 21,597 homes built in King County from 1900 to 2015. Each home in the set contains information regarding features such as number of bedrooms/bathrooms, number of floors, square footage, zip code, condition, and more.

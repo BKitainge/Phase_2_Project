@@ -8,14 +8,7 @@ Phase 2 Housing project.
 
 # Business problem.
 
-# $Authors:$
-* Yussuf Hersi
-* Bravin Mugangasia
-* Pauline Wambui.
-* Kibet Kemboi
-* Brian Kisilu
-* Ronald Nyagaka
-
+# $Authors:$ | Yussuf Hersi | Bravin Mugangasia | Pauline Wambui | Kibet Kemboi | Brian Kisilu | Ronald Nyagaka
 
 # Problem Statement
 The business problem the client is facing is how to create a successful platform for buying and selling houses in King County. To achieve this goal, the platform needs to provide accurate estimates of house prices, which is crucial for both buyers and sellers.

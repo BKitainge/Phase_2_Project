@@ -55,7 +55,7 @@ King County House Data: a dataset that we were provided at the onset of the proj
 * sqft_lot15
 
 # Results
-*Explaratory Analysis
+*Explaratory Analysis*
 
 *Price Vs Waterfront Box Plot* 
 <img src="https://user-images.githubusercontent.com/98708792/233442101-f0ee74a5-0071-49ce-b0be-66c94e1cbe88.png" alt="example image" width="400" height="200">
@@ -63,22 +63,22 @@ King County House Data: a dataset that we were provided at the onset of the proj
 * This visualization helps to understand the impact of waterfront on the price of the house. The boxplot shows that houses with waterfront tend to have higher prices compared to houses without waterfront.
 
 *Average Price Vs View*
-![output2](https://user-images.githubusercontent.com/98708792/233221798-7a30311b-704d-4acd-81c3-1c7a3d7237f1.png)
-* The price increases as the view increases, however it seems houses with a good view ```2``` are priced higher than houses with a fair view ```3```
+<img src="https://user-images.githubusercontent.com/98708792/233442101-f0ee74a5-0071-49ce-b0be-66c94e1cbe88.png" alt="example image" width="400" height="200">* 
+The price increases as the view increases, however it seems houses with a good view ```2``` are priced higher than houses with a fair view ```3```
 
 *Price Vs Grade 
-![output3](https://user-images.githubusercontent.com/98708792/233221833-ca1258f3-32b4-4f10-8472-aa96a3ab3a6f.png)
+<img src="https://user-images.githubusercontent.com/98708792/233442101-f0ee74a5-0071-49ce-b0be-66c94e1cbe88.png" alt="example image" width="400" height="200">
 * From this we can see that as the grade of the house increases so does the sales price
 * The average price of a house with a grade of 13 is the highest
 * The average price of a house with a grade of 3 is the lowest
 
 * Price Vs Conditions 
-![output4](https://user-images.githubusercontent.com/98708792/233221877-13f8b478-fd37-4704-ae16-03426ddf5df3.png)
+<img src="https://user-images.githubusercontent.com/98708792/233442101-f0ee74a5-0071-49ce-b0be-66c94e1cbe88.png" alt="example image" width="400" height="200">
 * From this we can see that price increases as the condition of the house increases
 * However it appears that houses in poor condition are priced higher than those with fair condition
 
 *Price Vs Sqft Living 
-![output5](https://user-images.githubusercontent.com/98708792/233221907-2421f283-182e-43ca-8068-c806a62b4a07.png)
+<img src="https://user-images.githubusercontent.com/98708792/233442101-f0ee74a5-0071-49ce-b0be-66c94e1cbe88.png" alt="example image" width="400" height="200">
 * The scatter plot shows a positive correlation between the price and the sqft_living
 
 

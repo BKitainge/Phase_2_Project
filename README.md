@@ -29,7 +29,7 @@ Once the model is trained, it can be integrated into the platform to provide buy
 # Data Understanding 
 * Data
 We utilized the following dataset to help make predictions of house prices in Kings County 
-King County House Data: a dataset that we were provided at the onset of the project. This file contains data for 21,597 homes built in King County from 1900 to 2015. Each home in the set contains information regarding features such as number of bedrooms/bathrooms, number of floors, square footage, zip code, condition, and more.
+King County House Data: a dataset that we were provided at the onset of the project. This file contains data for 21,597 homes built in King County, Seattle from 1900 to 2015. Each home in the set contains information regarding features such as number of bedrooms/bathrooms, number of floors, square footage, zip code, condition, and more.
 
 ### Data Attribute Information;
 * id
@@ -69,8 +69,8 @@ King County House Data: a dataset that we were provided at the onset of the proj
 *Price Vs Grade 
 ![output3](https://user-images.githubusercontent.com/98708792/233221833-ca1258f3-32b4-4f10-8472-aa96a3ab3a6f.png)
 * From this we can see that as the grade of the house increases so does the sales price
-* The average price of a house with a grade of 13 is the highest
-* The average price of a house with a grade of 3 is the lowest
+* The average price of a house with a grade of '''13''' is the highest
+* The average price of a house with a grade of '''3''' is the lowest
 
 * Price Vs Conditions 
 ![output4](https://user-images.githubusercontent.com/98708792/233221877-13f8b478-fd37-4704-ae16-03426ddf5df3.png)
@@ -88,28 +88,28 @@ We used  three different models for predicting house prices based on various fea
 ### Base Model- Multiple Regression
 ![image](https://user-images.githubusercontent.com/98708792/233216929-586beda9-da00-44b1-b45f-49cb6ee82ec0.png)
     
-  *The R-squared value (r2_score) is a measure of how well the model fits the data, with values closer to 1 indicating a better fit. In this case, the r2_score is 0.60, which suggests that the model explains 60% of the variability in the target variable.*
+  *The R-squared value (r2_score) is a measure of how well the model fits the data, with values closer to 1 indicating a better fit. In this case, the r2_score is '''0.60''', which suggests that the model explains '''60%''' of the variability in the target variable.*
 
-  *The mean absolute error (MAE) is a measure of the average magnitude of errors in the predictions made by the model. The lower the MAE, the better the model. The train MAE and test MAE are 153,308 and 155,208, respectively, which are quite large values, indicating that the model is not performing well.*
+  *The mean absolute error (MAE) is a measure of the average magnitude of errors in the predictions made by the model. The lower the MAE, the better the model. The train MAE and test MAE are '''153,308''' and '''155,208''', respectively, which are quite large values, indicating that the model is not performing well.*
 
-  *The mean squared error (MSE) is a measure of the average of the squared differences between the predicted and actual values. The train MSE and test MSE are 54,251,508,451 and 54,392,562,865, respectively, which are both quite large.*
+  *The mean squared error (MSE) is a measure of the average of the squared differences between the predicted and actual values. The train MSE and test MSE are '''54,251,508,451''' and '''54,392,562,865''', respectively, which are both quite large.*
 
-  *The root mean squared error (RMSE) is the square root of the MSE, and it measures the average magnitude of the error in the model's predictions. The train RMSE and test RMSE are 232,919 and 233,222, respectively, which are also quite large.*
+  *The root mean squared error (RMSE) is the square root of the MSE, and it measures the average magnitude of the error in the model's predictions. The train RMSE and test RMSE are '''232,919''' and '''233,222''', respectively, which are also quite large.*
 Overall, these metrics suggest that the linear regression model is not performing very well in making accurate predictions on the dataset.
 
 ### Log Transformation Model
 ![image](https://user-images.githubusercontent.com/98708792/233217227-5b35d6f4-98b8-4eab-9ce6-9ef28ffa66a5.png)
-  *An R2 score of 0.5795 indicates that the model explains 57.95% of the variance in the logarithmic actual values.*
-  *An MAE value of 0.2727 for train data and 0.2739 for test data suggest that, on average, the model's logarithmic predictions are off by about 27.27% and 27.39% respectively from the logarithmic actual values.*
-  *An MSE value of 0.1154 for train data and an MSE of 0.1175 for test data suggest that, on average, the model's logarithmic predictions are off by the squared value of about 11.54% and 11.75% respectively from the logarithmic actual values.*
-  *An RMSE value of 0.3396 for train data and 0.3428 for test data suggest that, on average, the model's logarithmic predictions are off by the squared root value of about 33.96% and 34.28% respectively from the logarithmic actual values*
+  *An R2 score of '''0.5795''' indicates that the model explains '''57.95%''' of the variance in the logarithmic actual values.*
+  *An MAE value of '''0.2727''' for train data and '''0.2739''' for test data suggest that, on average, the model's logarithmic predictions are off by about '''27.27%''' and '''27.39%''' respectively from the logarithmic actual values.*
+  *An MSE value of '''0.1154''' for train data and an MSE of '''0.1175''' for test data suggest that, on average, the model's logarithmic predictions are off by the squared value of about '''11.54%''' and 11.75% respectively from the logarithmic actual values.*
+  *An RMSE value of '''0.3396''' for train data and 0.3428 for test data suggest that, on average, the model's logarithmic predictions are off by the squared root value of about '''33.96%''' and '''34.28%''' respectively from the logarithmic actual values*
   
 ### Polynomial Model
 ![image](https://user-images.githubusercontent.com/98708792/233217409-6c4347fc-0de8-4768-8c9a-8f790f651b83.png)
   *The r2_score is 0.669, indicating that the model explains about 66.9% of the variation in the target variable.*
-  *The train MAE is 141902.51 and the test MAE is 143141.58. This means that, on average, the model's predictions are off by about $141,902.51 in the training data and $143,141.58 in the test data.*
-  *The train MSE is 44468558642.63 and the test MSE is 45132115646.34. The MSE is larger than the MAE because it penalizes larger errors more heavily.*
-  *The train RMSE is 210875.69 and the test RMSE is 212443.21. The RMSE is in the same units as the target variable, and it can be interpreted as the average absolute difference between the actual and predicted values, after taking into account the scale of the target variable.*
+  *The train MAE is 141902.51 and the test MAE is 143141.58. This means that, on average, the model's predictions are off by about $141,902.51 in the training data and '''$143,141.58''' in the test data.*
+  *The train MSE is '''44468558642.63''' and the test MSE is '''45132115646.34'''. The MSE is larger than the MAE because it penalizes larger errors more heavily.*
+  *The train RMSE is '''210875.69''' and the test RMSE is '''212443.21'''. The RMSE is in the same units as the target variable, and it can be interpreted as the average absolute difference between the actual and predicted values, after taking into account the scale of the target variable.*
 
 In summary, these metrics can be used to evaluate the performance of the model. In this case, the model has a decent r2_score, but its MAE and RMSE indicate that there is still room for improvement in the model's predictive accuracy.
 

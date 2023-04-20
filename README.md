@@ -57,7 +57,7 @@ King County House Data: a dataset that we were provided at the onset of the proj
 # Results
 *Explaratory Analysis*
 
-*Price Vs Waterfront Box Plot* 
+*Price Vs Waterfront Box Plot* <br>
 <img src="https://user-images.githubusercontent.com/98708792/233442101-f0ee74a5-0071-49ce-b0be-66c94e1cbe88.png" alt="example image" width="400" height="200">
 
 * This visualization helps to understand the impact of waterfront on the price of the house. The boxplot shows that houses with waterfront tend to have higher prices compared to houses without waterfront.
